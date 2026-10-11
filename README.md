@@ -147,5 +147,5 @@ pd.read_csv("stations_clean.csv", keep_default_na=False, na_values=[""])
 
 ## Author
 
-**Pavan** - R.K. College of Engineering
+**Pavan Kumar Tiruveedhi** 
 Internship: SWYNEX Technologies
