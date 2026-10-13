@@ -1,0 +1,10 @@
+,MAE (min),RMSE (min),R2,MdAPE (%),Within 15% (%)
+Baseline 1: median duration,532.3,863.09,-0.2,71.43,12.43
+Baseline 2: distance / global speed,227.32,397.68,0.75,24.44,31.83
+Linear (distance only),111.92,167.41,0.95,18.6,42.84
+"Linear (log distance, Task 2)",104.59,169.41,0.95,15.14,49.15
+Linear (all features),87.57,129.64,0.97,14.63,50.66
+Baseline 3: distance / speed per type,74.12,125.7,0.97,10.17,63.37
+Random forest,64.09,112.95,0.98,7.71,74.76
+Gradient boosting,60.06,106.73,0.98,7.34,75.42
+Gradient boosting (tuned),59.69,107.42,0.98,6.98,77.31
