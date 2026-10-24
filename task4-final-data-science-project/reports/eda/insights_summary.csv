@@ -1,0 +1,9 @@
+#,Insight,Evidence,Model / decision impact
+1,Distance is heavily right-skewed,skew 1.86 -> -0.12 after log; mean 548 vs median 228 km,Use log(distance); keep the long-haul 'outliers'
+2,"Distance, duration and route length are near-duplicates",Spearman 0.92-0.99; speed = distance / duration,Keep one; never use duration to predict speed (leakage)
+3,"Train type drives speed, not zone",R2: type 0.68 vs zone 0.13; adding zone to distance+type: +0.031,Type is the first feature; zone is secondary; group rare types
+4,Speed rises with distance but saturates,median 31.7 -> 55.1 km/h; 56% of trains run <300 km,Non-linear: use log/bands or trees; local services affect most trains
+5,Zone gaps mostly reflect train mix,raw spread 19.1 km/h; Express-only spread 7.8 km/h; Kruskal p<1e-35,Include zone with type; do not rank zones on raw averages
+6,Missing zone is informative,unknown-zone trains: median 56 km vs 256 km; mostly Passenger/MEMU,Keep 'Unknown' as a category; do not drop or mode-impute
+7,Distance sets the service regime,overnight 1% -> 100%; AC 1% -> 97%,Distance bands near 300/600 km; n_classes is a weak extra feature
+8,Return pairs give a free consistency check,"95.5% of 4,528 pairs agree within 1%; 84 differ >10%",Review mismatches; use pairs to validate imputation

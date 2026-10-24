@@ -1,0 +1,8 @@
+pandas>=2.0
+numpy
+matplotlib>=3.9
+scipy
+scikit-learn>=1.4
+joblib
+jupyter
+jupytext

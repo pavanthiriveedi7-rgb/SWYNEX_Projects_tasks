@@ -1,0 +1,5 @@
+model,R2,MAE,RMSE
+Dummy (median),-0.028,10.66,13.26
+Linear: distance + type,0.706,5.182,7.089
+Linear: all features,0.744,4.87,6.618
+Random Forest,0.818,3.896,5.574

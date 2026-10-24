@@ -1,0 +1,16 @@
+train_id,name,train_type,zone,distance_km,actual,predicted,abs_error
+56641,Verna Mangalore Passenger,Passenger,SR,454.0,64.9,38.6,26.3
+12052,MADGAON - DADAR Jan Shatabdi Exp,Jan Shatabdi,KR,765.0,86.6,60.6,26.0
+12051,DADAR - MADGAON Jan Shatabdi Exp,Jan Shatabdi,KR,765.0,85.0,60.5,24.5
+52110,Matheran Neral Passenger,Toy train,CR,126.0,75.6,51.8,23.8
+52102,Matheran Neral Passenger,Toy train,CR,126.0,79.6,56.3,23.3
+12612,H Nizamuddin-Chennai Garib Rath Express,Garib Rath,SR,2176.0,77.0,55.0,22.0
+04741,Sirsa - Hisar Passenger Special,Passenger,Unknown,82.0,51.8,30.3,21.5
+12611,Chennai Central-H.Nizamuddin Garib Rath Express,Garib Rath,SR,2177.0,77.3,55.9,21.4
+08051,Kharagpur- Jhargram MEMU Special,MEMU (electric multiple unit),Unknown,38.0,60.0,39.0,21.0
+04742,Hisar - Sirsa Passenger Special,Passenger,Unknown,82.0,44.7,24.5,20.2
+07605,Kamareddi-Nizamabad Passenger Special,Passenger,SCR,52.0,56.7,36.6,20.1
+58808,Wadsa Chanda Fort Passenger,Passenger,SECR,137.0,48.4,28.3,20.1
+56640,Mangalore-Verna Passenger,Passenger,KR,454.0,64.9,44.9,20.0
+07606,Nizamabad-Kamareddi Special,Passenger,SCR,52.0,56.7,36.9,19.8
+51262,Wardha Amravati Passenger,Passenger,WCR,101.0,19.5,38.0,18.5
